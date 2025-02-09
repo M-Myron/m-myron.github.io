@@ -3,7 +3,7 @@ title: "Acoustic Word Embedding on code-switching Query By Example Spoken Term D
 collection: publications
 category: manuscripts
 permalink: /publication/2021_acoustic
-date: 2021
+date: 2021-03-01
 venue: 'ISCSLP2021'
 paperurl: 'http://arxiv.org/abs/2005.11777'
 citation: 'Ma, Murong, et al. "Acoustic word embedding system for code-switching query-by-example spoken term detection." 2021 12th International Symposium on Chinese Spoken Language Processing (ISCSLP). IEEE, 2021.'
