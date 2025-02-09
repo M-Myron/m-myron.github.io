@@ -11,6 +11,15 @@ redirect_from:
 I am a Ph.D. student at the National University of Singapore (NUS), School of Computing. I am supervised by [Prof. Dong Jin Song](https://www.comp.nus.edu.sg/~dongjs/) and [Prof. Lin Yun](http://linyun.info/). My research interests lie in machine learning, AI with actionable explanations, and dataset quality.
 
 ## Publications
+
+- **Revisiting the Conflict-Resolving Problem from a Semantic Perspective**  
+  *Jinhao Dong, Jun Sun, Yun Lin, Yedi Zhang, Murong Ma, Jin Song Dong, Dan Hao*  
+  *Proceedings of the ACM*  
+  [Paper Link](https://dl.acm.org/doi/abs/10.1145/3691620.3694993)
+
+- **$F^{3}set$ : Towards Analyzing Fast, Frequent, and Fine-grained Events from Videos**  
+  *Zhaoyu Liu, Kan Jiang, Murong Ma, Zhe Hou, Yun Lin, Jin Song Dong*  
+
 - **Acoustic Word Embedding on Code-switching Query By Example Spoken Term Detection**  
   *Murong Ma, Haiwei Wu, Ming Li*  
   *ISCSLT2021*  
