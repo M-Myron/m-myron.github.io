@@ -17,7 +17,7 @@ I am a Ph.D. student at the National University of Singapore (NUS), School of Co
   *Proceedings of the ACM*  
   [Paper Link](https://dl.acm.org/doi/abs/10.1145/3691620.3694993)
 
-- **$F^{3}set$ : Towards Analyzing Fast, Frequent, and Fine-grained Events from Videos**  
+- **$$F^{3}set$$ : Towards Analyzing Fast, Frequent, and Fine-grained Events from Videos**  
   *Zhaoyu Liu, Kan Jiang, Murong Ma, Zhe Hou, Yun Lin, Jin Song Dong*  
 
 - **Acoustic Word Embedding on Code-switching Query By Example Spoken Term Detection**  
