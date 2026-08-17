@@ -243,9 +243,16 @@ body {
 }
 
 .current-role__details h3 {
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.2rem;
   color: var(--academic-ink);
   font-size: 1rem;
+}
+
+.current-role__details .current-role__period {
+  margin: 0 0 0.55rem;
+  color: var(--academic-muted);
+  font-size: 0.76rem;
+  font-weight: 600;
 }
 
 .current-role__details p:last-child {

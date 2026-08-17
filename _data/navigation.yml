@@ -9,7 +9,7 @@ main:
     url: /#about-me
 
   - title: "Experience"
-    url: /#current-role
+    url: /#experience
 
   - title: "Publications"
     url: /#publications
