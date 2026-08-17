@@ -19,6 +19,7 @@ My research interests include **machine learning**, **AI with actionable explana
 <div class="quick-links">
   <a href="mailto:murongma@u.nus.edu"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
   <a href="https://github.com/M-Myron"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+  <a href="https://scholar.google.com/citations?user=RHtWmLgAAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
   <a href="http://arxiv.org/a/ma_m_5"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv</a>
   <a href="https://orcid.org/0009-0005-6840-8912"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a>
 </div>
@@ -36,8 +37,8 @@ My research interests include **machine learning**, **AI with actionable explana
 1. [**Revisiting the Conflict-Resolving Problem from a Semantic Perspective**](https://dl.acm.org/doi/abs/10.1145/3691620.3694993)<br>
    Jinhao Dong, Jun Sun, Yun Lin, Yedi Zhang, **Murong Ma**, Jin Song Dong, Dan Hao. *Proceedings of the ACM*, 2024.
 
-2. **F<sup>3</sup>Set: Towards Analyzing Fast, Frequent, and Fine-grained Events from Videos**<br>
-   Zhaoyu Liu, Kan Jiang, **Murong Ma**, Zhe Hou, Yun Lin, Jin Song Dong.
+2. [**F<sup>3</sup>Set: Towards Analyzing Fast, Frequent, and Fine-grained Events from Videos**](https://proceedings.iclr.cc/paper_files/paper/2025/hash/1c8e2cd11daf2d0a8c68663d504a841d-Abstract-Conference.html)<br>
+   Zhaoyu Liu, Kan Jiang, **Murong Ma**, Zhe Hou, Yun Lin, Jin Song Dong. *ICLR*, 2025.
 
 3. [**Novel View Synthesis for High-fidelity Headshot Scenes**](https://arxiv.org/abs/2205.15595)<br>
    Satoshi Tsutsui, Weijia Mao, Sijing Lin, Yunyi Zhu, **Murong Ma**, Mike Zheng Shou. *arXiv preprint*, 2022.
@@ -55,11 +56,11 @@ My research interests include **machine learning**, **AI with actionable explana
 
 <div class="education-list">
   <div class="education-item">
-    <div><strong>Ph.D. in Computing</strong><br>National University of Singapore</div>
+    <div><strong>Ph.D. in Computer Science</strong><br>National University of Singapore</div>
     <time>2023 — Present</time>
   </div>
   <div class="education-item">
-    <div><strong>M.S. in Computing</strong><br>National University of Singapore · Artificial Intelligence specialization</div>
+    <div><strong>M.S. in Computer Science</strong><br>National University of Singapore · Artificial Intelligence specialization</div>
     <time>2021 — 2022</time>
   </div>
   <div class="education-item">
