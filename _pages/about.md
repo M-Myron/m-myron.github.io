@@ -29,7 +29,7 @@ My research centers on **post-training code agents**, with an emphasis on constr
     <p class="current-role__label">Microsoft Research Asia</p>
     <h3>Research Intern</h3>
     <p class="current-role__period"><time datetime="2026-07-26">26 July 2026</time> — Present</p>
-    <p>Working on post-training for code agents, including supervised fine-tuning trajectory construction and curation, and reinforcement learning for code agents.</p>
+    <p>Working with <a href="https://www.microsoft.com/en-us/research/people/yegong/">Dr. Yeyun Gong</a> on post-training for code agents, including supervised fine-tuning trajectory construction and curation, and reinforcement learning for code agents.</p>
   </div>
 </div>
 
