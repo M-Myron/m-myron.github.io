@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Ma Murong"
+title                    : "Murong Ma"
 title_separator          : "-"
-name                     : &name "Ma Murong"
-description              : &description "personal description"
+name                     : &name "Murong Ma"
+description              : &description "Computer Science Ph.D. student at NUS researching machine learning, explainable AI, and dataset quality."
 url                      : https://m-myron.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "M-Myron/m-myron.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,9 +23,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "personal_photo.jpeg"
-  name             : "Ma Murong"
+  name             : "Murong Ma"
   # pronouns         : # example: "she/her"  
-  bio              : "Ph.D. student @ NUS"
+  bio              : "Ph.D. student in Computer Science"
   location         : "Singapore"
   employer         : "National University of Singapore"
   uri              : # URL
@@ -210,7 +210,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  math_engine: katex
+  math_engine: mathjax
 
 
 # These settings control the types of collections used by the template

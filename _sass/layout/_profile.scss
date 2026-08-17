@@ -1,0 +1,376 @@
+/* ==========================================================================
+   SIMPLE ACADEMIC HOMEPAGE
+   ========================================================================== */
+
+:root {
+  --academic-ink: #2c3440;
+  --academic-muted: #66717f;
+  --academic-link: #315d88;
+  --academic-line: #e2e6e9;
+  --academic-soft: #f7f9fa;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+body {
+  color: var(--academic-ink);
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.masthead {
+  height: 68px;
+  background: rgba(255, 255, 255, 0.97);
+  border-bottom: 1px solid var(--academic-line);
+  box-shadow: none;
+}
+
+.masthead__inner-wrap {
+  max-width: 1200px;
+  padding: 0.95rem 1.25rem;
+}
+
+.masthead__menu-item {
+  background: transparent;
+}
+
+.masthead__menu-item a {
+  color: var(--academic-muted);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.masthead__menu-item a:hover {
+  color: var(--academic-link);
+}
+
+.masthead__menu-item--lg {
+  margin-right: auto;
+}
+
+.masthead__menu-item--lg a {
+  color: var(--academic-ink);
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+#main {
+  max-width: 1200px;
+  margin-top: 2.8rem;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.page > .page__inner-wrap > header {
+  display: none;
+}
+
+.page {
+  padding-bottom: 1rem;
+}
+
+.page__content p,
+.page__content li,
+.page__content dl {
+  font-size: 0.94rem;
+}
+
+.page__content a {
+  color: var(--academic-link);
+  text-decoration: underline;
+  text-decoration-color: rgba(49, 93, 136, 0.35);
+  text-underline-offset: 2px;
+}
+
+.page__content a:hover {
+  color: #1c4369;
+  text-decoration-color: currentColor;
+}
+
+.sidebar {
+  color: var(--academic-ink);
+}
+
+.author__avatar img {
+  object-fit: cover;
+  object-position: center 24%;
+  aspect-ratio: 1 / 1;
+  padding: 0;
+  border: 1px solid var(--academic-line);
+  border-radius: 50%;
+  filter: saturate(0.82);
+}
+
+.sidebar .author__name {
+  margin: 1rem 0 0.25rem;
+  color: var(--academic-ink);
+  font-size: 1.12rem;
+  font-weight: 700;
+}
+
+.author__bio {
+  margin: 0 0 1rem;
+  color: var(--academic-muted);
+  font-size: 0.82rem !important;
+  line-height: 1.5;
+}
+
+.author__urls {
+  margin-top: 0.9rem;
+}
+
+.author__urls li {
+  margin-bottom: 0.18rem;
+  white-space: normal;
+}
+
+.author__urls a,
+.author__urls .author__desktop {
+  color: var(--academic-muted);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.author__urls a:hover {
+  color: var(--academic-link);
+  text-decoration: none;
+}
+
+.author__urls i {
+  color: var(--academic-ink);
+}
+
+.simple-academic {
+  max-width: 900px;
+}
+
+.simple-academic > h2:first-child {
+  margin-top: 0;
+}
+
+.simple-academic h2 {
+  margin: 2.6rem 0 1rem;
+  padding-bottom: 0.42rem;
+  color: var(--academic-ink);
+  border-bottom: 1px solid var(--academic-line);
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.simple-academic h2::before {
+  display: inline-block;
+  width: 3px;
+  height: 1em;
+  margin-right: 0.55rem;
+  background: var(--academic-link);
+  border-radius: 2px;
+  content: "";
+  vertical-align: -0.08em;
+}
+
+.simple-academic p {
+  margin-bottom: 0.8rem;
+}
+
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1.15rem;
+}
+
+.simple-academic .quick-links a {
+  display: inline-flex;
+  gap: 0.4rem;
+  align-items: center;
+  padding: 0.34rem 0.7rem;
+  color: var(--academic-ink);
+  background: var(--academic-soft);
+  border: 1px solid var(--academic-line);
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.simple-academic .quick-links a:hover {
+  color: var(--academic-link);
+  border-color: #c8d4df;
+}
+
+.simple-academic ul,
+.simple-academic ol {
+  margin-top: 0.8rem;
+  padding-left: 1.35rem;
+}
+
+.simple-academic li {
+  margin-bottom: 0.72rem;
+  padding-left: 0.18rem;
+}
+
+.simple-academic ol li {
+  margin-bottom: 1rem;
+  line-height: 1.55;
+}
+
+.publication-note {
+  color: var(--academic-muted);
+  font-size: 0.76rem !important;
+  font-style: italic;
+}
+
+.education-list {
+  border-top: 1px solid var(--academic-line);
+}
+
+.education-item {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--academic-line);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.education-item time {
+  flex: 0 0 auto;
+  color: var(--academic-muted);
+  font-size: 0.76rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.page__footer {
+  margin-top: 3.5rem;
+  color: var(--academic-muted);
+  background: var(--academic-soft);
+  border-top: 1px solid var(--academic-line);
+}
+
+@media (min-width: 925px) {
+  .sidebar {
+    width: 190px;
+  }
+
+  .page {
+    width: calc(100% - 235px);
+    padding-left: 0;
+  }
+
+  .author__avatar img {
+    width: 152px;
+    height: 152px;
+  }
+}
+
+@media (max-width: 924px) {
+  body {
+    padding-top: 68px;
+  }
+
+  #main {
+    margin-top: 1.8rem;
+  }
+
+  .sidebar {
+    display: block;
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid var(--academic-line);
+  }
+
+  .sidebar > div {
+    display: grid;
+    grid-template-columns: 92px 1fr;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .author__avatar,
+  .author__content {
+    display: block;
+  }
+
+  .author__urls-wrapper {
+    display: none;
+  }
+
+  .author__avatar {
+    width: 92px;
+  }
+
+  .author__avatar img {
+    width: 92px;
+    height: 92px;
+  }
+
+  .author__content {
+    padding: 0;
+  }
+
+  .sidebar .author__name {
+    margin-top: 0;
+  }
+
+  .author__bio {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  #main,
+  .masthead__inner-wrap {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .sidebar {
+    padding-bottom: 1.1rem;
+  }
+
+  .sidebar > div {
+    grid-template-columns: 72px 1fr;
+    gap: 0.8rem;
+  }
+
+  .author__avatar {
+    width: 72px;
+  }
+
+  .author__avatar img {
+    width: 72px;
+    height: 72px;
+  }
+
+  .sidebar .author__name {
+    font-size: 1rem;
+  }
+
+  .simple-academic h2 {
+    margin-top: 2.2rem;
+    font-size: 1.2rem;
+  }
+
+  .education-item {
+    display: block;
+  }
+
+  .education-item time {
+    display: block;
+    margin-top: 0.35rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
