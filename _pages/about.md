@@ -24,25 +24,23 @@ My research interests include **machine learning**, **AI with actionable explana
 
 ## Publications
 
-<p class="publication-note">My name is shown in bold. Publication details will be updated in the next content pass.</p>
+1. [**F<sup>3</sup>Set: Towards Analyzing Fast, Frequent, and Fine-grained Events from Videos**](https://proceedings.iclr.cc/paper_files/paper/2025/hash/1c8e2cd11daf2d0a8c68663d504a841d-Abstract-Conference.html)<br>
+   Zhaoyu Liu, Kan Jiang, **Murong Ma**, Zhe Hou, Yun Lin, and Jin Song Dong. In *International Conference on Learning Representations (ICLR)*, pp. 10566–10580, 2025.
 
-1. [**Revisiting the Conflict-Resolving Problem from a Semantic Perspective**](https://dl.acm.org/doi/abs/10.1145/3691620.3694993)<br>
-   Jinhao Dong, Jun Sun, Yun Lin, Yedi Zhang, **Murong Ma**, Jin Song Dong, Dan Hao. *Proceedings of the ACM*, 2024.
-
-2. [**F<sup>3</sup>Set: Towards Analyzing Fast, Frequent, and Fine-grained Events from Videos**](https://proceedings.iclr.cc/paper_files/paper/2025/hash/1c8e2cd11daf2d0a8c68663d504a841d-Abstract-Conference.html)<br>
-   Zhaoyu Liu, Kan Jiang, **Murong Ma**, Zhe Hou, Yun Lin, Jin Song Dong. *ICLR*, 2025.
+2. [**Revisiting the Conflict-Resolving Problem from a Semantic Perspective**](https://doi.org/10.1145/3691620.3694993)<br>
+   Jinhao Dong, Jun Sun, Yun Lin, Yedi Zhang, **Murong Ma**, Jin Song Dong, and Dan Hao. In *Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE)*, pp. 141–152, 2024.
 
 3. [**Novel View Synthesis for High-fidelity Headshot Scenes**](https://arxiv.org/abs/2205.15595)<br>
-   Satoshi Tsutsui, Weijia Mao, Sijing Lin, Yunyi Zhu, **Murong Ma**, Mike Zheng Shou. *arXiv preprint*, 2022.
+   Satoshi Tsutsui, Weijia Mao, Sijing Lin, Yunyi Zhu, **Murong Ma**, and Mike Zheng Shou. *arXiv preprint arXiv:2205.15595*, 2022.
 
-4. [**Acoustic Word Embedding on Code-switching Query By Example Spoken Term Detection**](https://ieeexplore.ieee.org/document/9362056)<br>
-   **Murong Ma**, Haiwei Wu, Ming Li. *ISCSLT*, 2021.
+4. [**Acoustic Word Embedding System for Code-Switching Query-by-Example Spoken Term Detection**](https://doi.org/10.1109/ISCSLP49672.2021.9362056)<br>
+   **Murong Ma**, Haiwei Wu, Xuyang Wang, Lin Yang, Junjie Wang, and Ming Li. In *2021 12th International Symposium on Chinese Spoken Language Processing (ISCSLP)*, pp. 1–5, 2021.
 
 5. [**The DKU System Description for the Interspeech 2021 Auto-KWS Challenge**](https://arxiv.org/abs/2104.04993)<br>
-   Yechen Wang, Yan Jia, **Murong Ma**, Zexin Cai, Ming Li. *NCCMMSC*, 2021.
+   Yechen Wang, Yan Jia, **Murong Ma**, Zexin Cai, and Ming Li. *arXiv preprint arXiv:2104.04993*, 2021.
 
 6. [**Training Wake Word Detection with Synthesized Speech Data on Confusion Words**](https://arxiv.org/abs/2011.01460)<br>
-   Yan Jia, Zexin Cai, **Murong Ma**, Zeqing Zhao, Xuyang Wang, Junjie Wang, Ming Li. *arXiv preprint*, 2020.
+   Yan Jia, Zexin Cai, **Murong Ma**, Zeqing Zhao, Xuyang Wang, Junjie Wang, and Ming Li. *arXiv preprint arXiv:2011.01460*, 2020.
 
 ## Education
 
