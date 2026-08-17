@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Murong Ma — Computer Science Ph.D. Student"
-excerpt: "Computer Science Ph.D. student at NUS researching machine learning, actionable AI explanations, and dataset quality."
+excerpt: "Computer Science Ph.D. student at NUS and MSRA research intern working on code agent post-training, data curation, and explainable AI."
 author_profile: true
 redirect_from:
   - /about/
@@ -12,15 +12,31 @@ redirect_from:
 
 ## About Me
 
-I am a Ph.D. student in the [School of Computing](https://www.comp.nus.edu.sg/) at the National University of Singapore (NUS), supervised by [Prof. Jin Song Dong](https://www.comp.nus.edu.sg/~dongjs/) and [Prof. Yun Lin](http://linyun.info/).
+I am a Ph.D. student in the [School of Computing](https://www.comp.nus.edu.sg/) at the National University of Singapore (NUS), supervised by [Prof. Jin Song Dong](https://www.comp.nus.edu.sg/~dongjs/) and [Prof. Yun Lin](http://linyun.info/). I am also a research intern at Microsoft Research Asia (MSRA).
 
-My research interests include **machine learning**, **AI with actionable explanations**, and **dataset quality**. I am currently open to research and industry opportunities.
+My research centers on **post-training code agents**, with an emphasis on constructing and curating supervised fine-tuning trajectories and reinforcement learning for code agents. My broader interests include **data curation** and **explainable AI (XAI)**. I am currently open to research and industry opportunities.
+
+## Current Role
+
+<div class="current-role">
+  <div class="current-role__brand">
+    <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" aria-label="Microsoft Research Asia">
+      <img src="{{ '/images/microsoft-logo.png' | relative_url }}" alt="Microsoft">
+      <span>Research Asia</span>
+    </a>
+  </div>
+  <div class="current-role__details">
+    <p class="current-role__label">Research Internship</p>
+    <h3>Research Intern at Microsoft Research Asia</h3>
+    <p>Working on post-training for code agents, including supervised fine-tuning trajectory construction and curation, and reinforcement learning for code agents.</p>
+  </div>
+</div>
 
 ## Research Interests
 
-- **Machine Learning:** learning methods and intelligent systems for real-world applications.
-- **Actionable AI Explanations:** explanations that help people understand model behavior and make informed decisions.
-- **Dataset Quality:** understanding how data quality affects model performance, reliability, and trustworthiness.
+- **Code Agent Post-Training:** constructing and curating high-quality supervised fine-tuning trajectories and developing reinforcement-learning methods for code agents.
+- **Data Curation:** selecting, refining, and evaluating training data and agent trajectories to improve model capability and reliability.
+- **Explainable AI (XAI):** developing actionable explanations that help people understand model behavior and make informed decisions.
 
 ## Publications
 
