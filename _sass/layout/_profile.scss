@@ -179,32 +179,6 @@ body {
   margin-bottom: 0.8rem;
 }
 
-.quick-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  margin-top: 1.15rem;
-}
-
-.simple-academic .quick-links a {
-  display: inline-flex;
-  gap: 0.4rem;
-  align-items: center;
-  padding: 0.34rem 0.7rem;
-  color: var(--academic-ink);
-  background: var(--academic-soft);
-  border: 1px solid var(--academic-line);
-  border-radius: 4px;
-  font-size: 0.78rem;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.simple-academic .quick-links a:hover {
-  color: var(--academic-link);
-  border-color: #c8d4df;
-}
-
 .simple-academic ul,
 .simple-academic ol {
   margin-top: 0.8rem;

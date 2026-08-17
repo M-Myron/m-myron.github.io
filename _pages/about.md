@@ -16,14 +16,6 @@ I am a Ph.D. student in the [School of Computing](https://www.comp.nus.edu.sg/) 
 
 My research interests include **machine learning**, **AI with actionable explanations**, and **dataset quality**. I am currently open to research and industry opportunities.
 
-<div class="quick-links">
-  <a href="mailto:murongma@u.nus.edu"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
-  <a href="https://github.com/M-Myron"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
-  <a href="https://scholar.google.com/citations?user=RHtWmLgAAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
-  <a href="http://arxiv.org/a/ma_m_5"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv</a>
-  <a href="https://orcid.org/0009-0005-6840-8912"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a>
-</div>
-
 ## Research Interests
 
 - **Machine Learning:** learning methods and intelligent systems for real-world applications.
