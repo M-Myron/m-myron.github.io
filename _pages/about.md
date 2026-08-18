@@ -150,12 +150,30 @@ My work spans supervised fine-tuning trajectory construction and curation, reinf
 4. [**Training Wake Word Detection with Synthesized Speech Data on Confusion Words**](https://arxiv.org/abs/2011.01460)<br>
    Yan Jia, Zexin Cai, **Murong Ma**, Zeqing Zhao, Xuyang Wang, Junjie Wang, and Ming Li. *arXiv preprint arXiv:2011.01460*, 2020.
 
-## Research & Technical Skills
+## Technical Expertise
 
-- **LLM and Agent Training:** supervised fine-tuning, trajectory construction and curation, reinforcement learning
-- **Evaluation:** repository-level code editing, SWE-bench
-- **Machine Learning:** PyTorch
-- **Programming and Systems:** Python, C++, C, Linux
+<div class="technical-stack">
+  <div class="technical-stack__row">
+    <h3>Code-Agent Post-Training</h3>
+    <p>Supervised fine-tuning (SFT), trajectory generation and filtering, process-supervised data curation, and agentic reinforcement learning</p>
+  </div>
+  <div class="technical-stack__row">
+    <h3>Training & RL Infrastructure</h3>
+    <p>PyTorch, slime, Megatron-LM</p>
+  </div>
+  <div class="technical-stack__row">
+    <h3>Inference & Rollouts</h3>
+    <p>vLLM, SGLang, high-throughput model serving, and rollout generation</p>
+  </div>
+  <div class="technical-stack__row">
+    <h3>Evaluation & Verification</h3>
+    <p>SWE-bench Verified and Lite, repository-level code editing, test-based verification, Pass@1, and inference-cost analysis</p>
+  </div>
+  <div class="technical-stack__row">
+    <h3>Programming & Systems</h3>
+    <p>Python, C++, C, Linux, Git</p>
+  </div>
+</div>
 
 ## Selected Honors
 

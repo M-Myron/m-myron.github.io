@@ -364,6 +364,34 @@ body {
   white-space: nowrap;
 }
 
+.technical-stack {
+  border-top: 1px solid var(--academic-line);
+}
+
+.technical-stack__row {
+  display: grid;
+  grid-template-columns: minmax(175px, 0.7fr) minmax(0, 2fr);
+  gap: 1.25rem;
+  align-items: baseline;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--academic-line);
+}
+
+.technical-stack__row h3 {
+  margin: 0;
+  color: var(--academic-ink);
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.simple-academic .technical-stack__row p {
+  margin: 0;
+  color: var(--academic-muted);
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
 .opportunity-note,
 .cv-placeholder {
   padding: 1.1rem 1.2rem;
@@ -536,6 +564,11 @@ body {
 
   .education-item {
     display: block;
+  }
+
+  .technical-stack__row {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
   }
 
   .experience-item header {
