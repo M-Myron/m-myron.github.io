@@ -16,29 +16,34 @@ I am a Ph.D. student in the [School of Computing](https://www.comp.nus.edu.sg/) 
 
 My research centers on **post-training code agents**, with an emphasis on constructing and curating supervised fine-tuning trajectories and reinforcement learning for code agents. My broader interests include **data curation** and **explainable AI (XAI)**. I am currently open to research and industry opportunities.
 
-## Experience
+## Research Interests
 
-<div class="current-role">
-  <div class="current-role__brand">
-    <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" aria-label="Microsoft Research Asia">
-      <img src="{{ '/images/microsoft-logo.png' | relative_url }}" alt="Microsoft">
-      <span>Research Asia</span>
-    </a>
-  </div>
-  <div class="current-role__details">
-    <p class="current-role__label">Microsoft Research Asia</p>
-    <h3>Research Intern</h3>
-    <p class="current-role__period"><time datetime="2026-07-26">26 July 2026</time> — Present</p>
-    <p>Working with <a href="https://www.microsoft.com/en-us/research/people/yegong/">Dr. Yeyun Gong</a> on post-training for code agents, including supervised fine-tuning trajectory construction and curation, and reinforcement learning for code agents. Our <a href="https://arxiv.org/abs/2605.21996">process-supervised trajectory curation</a> improves SWE-bench Verified performance by up to 10.8 points while reducing per-instance inference cost by approximately 15%.</p>
-  </div>
-</div>
+- **Code Agent Post-Training:** constructing and curating high-quality supervised fine-tuning trajectories and developing reinforcement-learning methods for code agents.
+- **Data Curation:** selecting, refining, and evaluating training data and agent trajectories to improve model capability and reliability.
+- **Explainable AI (XAI):** developing actionable explanations that help people understand model behavior and make informed decisions.
+
+## Experience
 
 <div class="experience-list">
   <article class="experience-item">
     <header>
       <div>
+        <p class="experience-item__organization"><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a></p>
+        <h3>Research Intern</h3>
+      </div>
+      <time datetime="2026-07-26">26 July 2026 — Present</time>
+    </header>
+    <ul>
+      <li>Working with <a href="https://www.microsoft.com/en-us/research/people/yegong/">Dr. Yeyun Gong</a> on post-training for code agents, including supervised fine-tuning trajectory construction and curation, and reinforcement learning.</li>
+      <li>Developed <a href="https://arxiv.org/abs/2605.21996">process-supervised trajectory curation</a> that improves SWE-bench Verified performance by up to 10.8 points while reducing per-instance inference cost by approximately 15%.</li>
+    </ul>
+  </article>
+
+  <article class="experience-item">
+    <header>
+      <div>
         <p class="experience-item__organization">ShowLab · National University of Singapore</p>
-        <h3>M.S. Thesis Researcher</h3>
+        <h3>Research Assistant</h3>
       </div>
       <time>Aug 2021 — Sep 2022</time>
     </header>
@@ -76,12 +81,6 @@ My research centers on **post-training code agents**, with an emphasis on constr
     </ul>
   </article>
 </div>
-
-## Research Interests
-
-- **Code Agent Post-Training:** constructing and curating high-quality supervised fine-tuning trajectories and developing reinforcement-learning methods for code agents.
-- **Data Curation:** selecting, refining, and evaluating training data and agent trajectories to improve model capability and reliability.
-- **Explainable AI (XAI):** developing actionable explanations that help people understand model behavior and make informed decisions.
 
 ## Publications
 

@@ -190,80 +190,8 @@ body {
   padding-left: 0.18rem;
 }
 
-.current-role {
-  display: grid;
-  grid-template-columns: 165px minmax(0, 1fr);
-  overflow: hidden;
-  margin: 0.4rem 0 0;
-  border: 1px solid var(--academic-line);
-  border-radius: 4px;
-}
-
-.current-role__brand {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1.25rem;
-  background: var(--academic-soft);
-  border-right: 1px solid var(--academic-line);
-}
-
-.simple-academic .current-role__brand a {
-  display: block;
-  color: var(--academic-ink);
-  text-align: left;
-  text-decoration: none;
-}
-
-.current-role__brand img {
-  display: block;
-  width: 118px;
-  margin: 0 0 0.4rem;
-}
-
-.current-role__brand span {
-  display: block;
-  color: var(--academic-muted);
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.current-role__details {
-  padding: 1.15rem 1.3rem;
-}
-
-.current-role__details .current-role__label {
-  margin: 0 0 0.25rem;
-  color: var(--academic-link);
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.current-role__details h3 {
-  margin: 0 0 0.2rem;
-  color: var(--academic-ink);
-  font-size: 1rem;
-}
-
-.current-role__details .current-role__period {
-  margin: 0 0 0.55rem;
-  color: var(--academic-muted);
-  font-size: 0.76rem;
-  font-weight: 600;
-}
-
-.current-role__details p:last-child {
-  margin: 0;
-  color: var(--academic-muted);
-  font-size: 0.86rem;
-  line-height: 1.55;
-}
-
 .experience-list {
-  margin-top: 1rem;
+  margin-top: 0.4rem;
   border-top: 1px solid var(--academic-line);
 }
 
@@ -286,6 +214,10 @@ body {
   font-weight: 700;
   letter-spacing: 0.035em;
   text-transform: uppercase;
+}
+
+.simple-academic .experience-item__organization a {
+  text-decoration: none;
 }
 
 .experience-item h3 {
@@ -465,21 +397,6 @@ body {
     display: block;
     margin-top: 0.3rem;
     text-align: left;
-  }
-
-  .current-role {
-    grid-template-columns: 1fr;
-  }
-
-  .current-role__brand {
-    justify-content: flex-start;
-    padding: 1rem 1.2rem;
-    border-right: 0;
-    border-bottom: 1px solid var(--academic-line);
-  }
-
-  .current-role__brand img {
-    width: 105px;
   }
 
   .education-item time {
