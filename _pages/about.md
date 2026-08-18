@@ -22,6 +22,23 @@ My research centers on **post-training code agents**, with an emphasis on constr
 - **Data Curation:** selecting, refining, and evaluating training data and agent trajectories to improve model capability and reliability.
 - **Explainable AI (XAI):** developing actionable explanations that help people understand model behavior and make informed decisions.
 
+## Education
+
+<div class="education-list">
+  <div class="education-item">
+    <div><strong>Ph.D. in Computer Science</strong><br>National University of Singapore</div>
+    <time>Aug 2023 — Present</time>
+  </div>
+  <div class="education-item">
+    <div><strong>M.S. in Computer Science</strong><br>National University of Singapore · Artificial Intelligence specialization</div>
+    <time>2021 — 2023</time>
+  </div>
+  <div class="education-item">
+    <div><strong>B.E. in Computer Science and Technology</strong><br>Beijing University of Posts and Telecommunications</div>
+    <time>2016 — 2020</time>
+  </div>
+</div>
+
 ## Experience
 
 <div class="experience-list">
@@ -101,23 +118,6 @@ My research centers on **post-training code agents**, with an emphasis on constr
 
 10. [**Training Wake Word Detection with Synthesized Speech Data on Confusion Words**](https://arxiv.org/abs/2011.01460)<br>
    Yan Jia, Zexin Cai, **Murong Ma**, Zeqing Zhao, Xuyang Wang, Junjie Wang, and Ming Li. *arXiv preprint arXiv:2011.01460*, 2020.
-
-## Education
-
-<div class="education-list">
-  <div class="education-item">
-    <div><strong>Ph.D. in Computer Science</strong><br>National University of Singapore</div>
-    <time>Aug 2023 — Present</time>
-  </div>
-  <div class="education-item">
-    <div><strong>M.S. in Computer Science</strong><br>National University of Singapore · Artificial Intelligence specialization</div>
-    <time>2021 — 2023</time>
-  </div>
-  <div class="education-item">
-    <div><strong>B.E. in Computer Science and Technology</strong><br>Beijing University of Posts and Telecommunications</div>
-    <time>2016 — 2020</time>
-  </div>
-</div>
 
 ## Technical Skills
 
