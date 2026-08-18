@@ -52,7 +52,7 @@ My work spans supervised fine-tuning trajectory construction and curation, reinf
     </header>
     <p class="experience-item__intro">Working with <a href="https://www.microsoft.com/en-us/research/people/yegong/">Dr. Yeyun Gong</a> on code-agent post-training across three workstreams:</p>
     <ul>
-      <li><strong>Repository-level mid-training — collaborator:</strong> contributed to a pipeline that uses verified pull requests as training signals for repository-level code editing, including the data and evaluation work reported in our <a href="https://arxiv.org/abs/2602.07457">ICML 2026 paper</a>.</li>
+      <li><strong>Repository-level mid-training — collaborator:</strong> a large-scale mid-training pipeline that curates verified pull requests as training signals for repository-level code editing, detailed in our <a href="https://arxiv.org/abs/2602.07457">ICML 2026 paper</a>.</li>
       <li><strong>Process-supervised SFT trajectories — lead:</strong> led the trajectory-construction and curation work for <a href="https://arxiv.org/abs/2605.21996">P2T</a>, using golden patches as privileged process supervision to recover effective, efficient agent trajectories; improved Pass@1 on SWE-bench Verified by up to 10.8 points while reducing per-instance inference cost by approximately 15%.</li>
       <li><strong>Long-horizon code-agent RL — lead:</strong> leading an ongoing project that addresses sparse terminal rewards and low rollout success through two complementary techniques: an evidence-driven process reward model (PRM) that extracts and verifies task-relevant evidence from intermediate trajectories to provide process-level rewards, and a P2T-to-RL extension that bootstraps valid training trajectories for difficult instances where successful single-pass rollouts remain rare even under repeated sampling.</li>
     </ul>
@@ -134,12 +134,8 @@ My work spans supervised fine-tuning trajectory construction and curation, reinf
     <p>Supervised fine-tuning (SFT), trajectory generation and filtering, process-supervised data curation, and agentic reinforcement learning</p>
   </div>
   <div class="technical-stack__row">
-    <h3>Training & RL Infrastructure</h3>
-    <p>PyTorch, slime, Megatron-LM</p>
-  </div>
-  <div class="technical-stack__row">
-    <h3>Inference & Rollouts</h3>
-    <p>vLLM, SGLang, high-throughput model serving, and rollout generation</p>
+    <h3>Training & Inference Infrastructure</h3>
+    <p>PyTorch, slime, Megatron-LM, vLLM, SGLang</p>
   </div>
   <div class="technical-stack__row">
     <h3>Evaluation & Verification</h3>
