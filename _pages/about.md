@@ -22,33 +22,6 @@ My work spans supervised fine-tuning trajectory construction and curation, reinf
 - **Data Curation:** selecting, refining, and evaluating training data and agent trajectories to improve model capability and reliability.
 - **Explainable AI (XAI):** developing actionable explanations that help people understand model behavior and make informed decisions.
 
-## Research Highlights
-
-<div class="research-highlights">
-  <article class="research-highlight">
-    <p class="research-highlight__eyebrow">Code Agent Post-Training · 2026</p>
-    <h3><a href="https://arxiv.org/abs/2605.21996">From Patches to Trajectories</a></h3>
-    <p>Uses reference patches as privileged process supervision to construct and curate effective, efficient supervised fine-tuning trajectories for software-engineering agents.</p>
-    <p class="research-highlight__impact"><strong>Result:</strong> up to +10.8 Pass@1 points on SWE-bench Verified with approximately 15% lower per-instance inference cost.</p>
-    <p class="research-highlight__links"><a href="https://arxiv.org/abs/2605.21996">Paper</a></p>
-  </article>
-
-  <article class="research-highlight">
-    <p class="research-highlight__eyebrow">Repository-Level Code Editing · ICML 2026</p>
-    <h3><a href="https://arxiv.org/abs/2602.07457">Pull Requests as a Training Signal</a></h3>
-    <p>Builds a filtered training corpus from more than two million verified pull requests across 12 programming languages for repository-level code editing.</p>
-    <p class="research-highlight__impact"><strong>Result:</strong> gains of 13.6 points on SWE-bench Lite and 12.3 points on SWE-bench Verified.</p>
-    <p class="research-highlight__links"><a href="https://arxiv.org/abs/2602.07457">Paper</a></p>
-  </article>
-
-  <article class="research-highlight">
-    <p class="research-highlight__eyebrow">Data Curation · ICLR 2026</p>
-    <h3><a href="https://openreview.net/forum?id=jSs8CDsF0A">TrainRef</a></h3>
-    <p>Curates training data using label distributions and minimal references to improve predictive accuracy and confidence reliability under noisy supervision.</p>
-    <p class="research-highlight__links"><a href="https://openreview.net/forum?id=jSs8CDsF0A">Paper</a><a href="https://sites.google.com/view/train-ref/home">Project</a></p>
-  </article>
-</div>
-
 ## Education
 
 <div class="education-list">
@@ -77,10 +50,14 @@ My work spans supervised fine-tuning trajectory construction and curation, reinf
       </div>
       <time datetime="2026-07-26">26 July 2026 — Present</time>
     </header>
+    <p class="experience-item__intro">Working with <a href="https://www.microsoft.com/en-us/research/people/yegong/">Dr. Yeyun Gong</a> on code-agent post-training across four workstreams:</p>
     <ul>
-      <li>Working with <a href="https://www.microsoft.com/en-us/research/people/yegong/">Dr. Yeyun Gong</a> on post-training for code agents, including supervised fine-tuning trajectory construction and curation, and reinforcement learning.</li>
-      <li>Developed <a href="https://arxiv.org/abs/2605.21996">process-supervised trajectory curation</a> that improves SWE-bench Verified performance by up to 10.8 points while reducing per-instance inference cost by approximately 15%.</li>
+      <li><strong>Repository-level mid-training — collaborator:</strong> contributed to a pipeline that uses verified pull requests as training signals for repository-level code editing, including the data and evaluation work reported in our <a href="https://arxiv.org/abs/2602.07457">ICML 2026 paper</a>.</li>
+      <li><strong>Process-supervised SFT trajectories — lead:</strong> led the trajectory-construction and curation work for <a href="https://arxiv.org/abs/2605.21996">P2T</a>, using golden patches as privileged process supervision to recover effective, efficient agent trajectories; improved Pass@1 on SWE-bench Verified by up to 10.8 points while reducing per-instance inference cost by approximately 15%.</li>
+      <li><strong>Dense rewards for long-horizon agentic RL:</strong> developing an evidence-driven process reward model (PRM) that extracts and verifies task-relevant evidence from intermediate agent trajectories, providing process-level feedback to mitigate sparse terminal rewards.</li>
+      <li><strong>Hard-trajectory bootstrapping for RL:</strong> extending P2T from SFT to reinforcement learning to construct valid training trajectories for difficult instances where successful single-pass rollouts remain rare even under repeated sampling.</li>
     </ul>
+    <p class="experience-item__scope"><strong>Evaluation scope:</strong> SWE-bench, NL2Repo, and other benchmarks requiring long-horizon repository reasoning and complex code generation.</p>
   </article>
 
   <article class="experience-item">
@@ -167,7 +144,7 @@ My work spans supervised fine-tuning trajectory construction and curation, reinf
   </div>
   <div class="technical-stack__row">
     <h3>Evaluation & Verification</h3>
-    <p>SWE-bench Verified and Lite, repository-level code editing, test-based verification, Pass@1, and inference-cost analysis</p>
+    <p>SWE-bench Verified and Lite, NL2Repo, repository-level code editing, test-based verification, Pass@1, and inference-cost analysis</p>
   </div>
   <div class="technical-stack__row">
     <h3>Programming & Systems</h3>
