@@ -179,6 +179,14 @@ body {
   margin-bottom: 0.8rem;
 }
 
+.simple-academic > h3 {
+  margin: 1.8rem 0 0.6rem;
+  color: var(--academic-ink);
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
 .simple-academic ul,
 .simple-academic ol {
   margin-top: 0.8rem;
@@ -188,6 +196,87 @@ body {
 .simple-academic li {
   margin-bottom: 0.72rem;
   padding-left: 0.18rem;
+}
+
+.research-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.research-highlight {
+  display: flex;
+  flex-direction: column;
+  padding: 1.05rem 1.1rem;
+  background: var(--academic-soft);
+  border: 1px solid var(--academic-line);
+  border-radius: 6px;
+}
+
+.research-highlight:first-child {
+  grid-column: 1 / -1;
+}
+
+.simple-academic .research-highlight__eyebrow {
+  margin: 0 0 0.3rem;
+  color: var(--academic-link);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.research-highlight h3 {
+  margin: 0 0 0.45rem;
+  color: var(--academic-ink);
+  font-size: 0.98rem;
+  line-height: 1.4;
+}
+
+.simple-academic .research-highlight h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.simple-academic .research-highlight h3 a:hover {
+  color: var(--academic-link);
+}
+
+.simple-academic .research-highlight p {
+  margin-bottom: 0.55rem;
+  color: var(--academic-muted);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.simple-academic .research-highlight__impact {
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--academic-line);
+}
+
+.simple-academic .research-highlight__links {
+  display: flex;
+  gap: 0.45rem;
+  margin-top: auto;
+  margin-bottom: 0;
+  padding-top: 0.25rem;
+}
+
+.simple-academic .research-highlight__links a {
+  display: inline-block;
+  padding: 0.18rem 0.55rem;
+  color: var(--academic-link);
+  border: 1px solid rgba(49, 93, 136, 0.3);
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.simple-academic .research-highlight__links a:hover {
+  color: #fff;
+  background: var(--academic-link);
+  border-color: var(--academic-link);
 }
 
 .experience-list {
@@ -275,11 +364,63 @@ body {
   white-space: nowrap;
 }
 
+.opportunity-note,
+.cv-placeholder {
+  padding: 1.1rem 1.2rem;
+  background: var(--academic-soft);
+  border: 1px solid var(--academic-line);
+  border-left: 3px solid var(--academic-link);
+  border-radius: 4px;
+}
+
+.simple-academic .opportunity-note p,
+.cv-placeholder p:last-child {
+  margin-bottom: 0;
+}
+
+.cv-placeholder {
+  max-width: 760px;
+  margin-top: 1rem;
+}
+
+.cv-placeholder h2 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
 .page__footer {
   margin-top: 3.5rem;
   color: var(--academic-muted);
   background: var(--academic-soft);
   border-top: 1px solid var(--academic-line);
+}
+
+.page__footer footer {
+  max-width: 1200px;
+  padding: 1.25rem;
+}
+
+.page__footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1.15rem;
+}
+
+.page__footer-nav a {
+  color: var(--academic-muted);
+  font-size: 0.76rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.page__footer-nav a:hover {
+  color: var(--academic-link);
+}
+
+.page__footer-copyright {
+  margin-top: 0.55rem;
+  color: var(--academic-muted);
+  font-size: 0.68rem;
 }
 
 @media (min-width: 925px) {
@@ -383,6 +524,14 @@ body {
   .simple-academic h2 {
     margin-top: 2.2rem;
     font-size: 1.2rem;
+  }
+
+  .research-highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .research-highlight:first-child {
+    grid-column: auto;
   }
 
   .education-item {

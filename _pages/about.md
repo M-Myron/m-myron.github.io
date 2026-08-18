@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Murong Ma — Computer Science Ph.D. Student"
-excerpt: "Computer Science Ph.D. student at NUS and MSRA research intern working on code agent post-training, data curation, and explainable AI."
+title: "Murong Ma | Code Agents, Data Curation, and XAI"
+excerpt: "Computer Science Ph.D. student at NUS developing data and post-training methods for reliable code agents."
 author_profile: true
 redirect_from:
   - /about/
@@ -12,15 +12,42 @@ redirect_from:
 
 ## About Me
 
-I am a Ph.D. student in the [School of Computing](https://www.comp.nus.edu.sg/) at the National University of Singapore (NUS), supervised by [Prof. Jin Song Dong](https://www.comp.nus.edu.sg/~dongjs/) and [Prof. Yun Lin](http://linyun.info/). I am also a research intern at Microsoft Research Asia (MSRA).
+I am a Computer Science Ph.D. student at the [National University of Singapore](https://www.comp.nus.edu.sg/), supervised by [Prof. Jin Song Dong](https://www.comp.nus.edu.sg/~dongjs/) and [Prof. Yun Lin](http://linyun.info/). I develop **data and post-training methods for reliable code agents** and am currently a research intern at Microsoft Research Asia (MSRA).
 
-My research centers on **post-training code agents**, with an emphasis on constructing and curating supervised fine-tuning trajectories and reinforcement learning for code agents. My broader interests include **data curation** and **explainable AI (XAI)**. I am currently open to research and industry opportunities.
+My work spans supervised fine-tuning trajectory construction and curation, reinforcement learning for software-engineering agents, and data-centric methods for accurate and trustworthy AI. I am currently open to research and industry opportunities.
 
 ## Research Interests
 
 - **Code Agent Post-Training:** constructing and curating high-quality supervised fine-tuning trajectories and developing reinforcement-learning methods for code agents.
 - **Data Curation:** selecting, refining, and evaluating training data and agent trajectories to improve model capability and reliability.
 - **Explainable AI (XAI):** developing actionable explanations that help people understand model behavior and make informed decisions.
+
+## Research Highlights
+
+<div class="research-highlights">
+  <article class="research-highlight">
+    <p class="research-highlight__eyebrow">Code Agent Post-Training · 2026</p>
+    <h3><a href="https://arxiv.org/abs/2605.21996">From Patches to Trajectories</a></h3>
+    <p>Uses reference patches as privileged process supervision to construct and curate effective, efficient supervised fine-tuning trajectories for software-engineering agents.</p>
+    <p class="research-highlight__impact"><strong>Result:</strong> up to +10.8 Pass@1 points on SWE-bench Verified with approximately 15% lower per-instance inference cost.</p>
+    <p class="research-highlight__links"><a href="https://arxiv.org/abs/2605.21996">Paper</a></p>
+  </article>
+
+  <article class="research-highlight">
+    <p class="research-highlight__eyebrow">Repository-Level Code Editing · ICML 2026</p>
+    <h3><a href="https://arxiv.org/abs/2602.07457">Pull Requests as a Training Signal</a></h3>
+    <p>Builds a filtered training corpus from more than two million verified pull requests across 12 programming languages for repository-level code editing.</p>
+    <p class="research-highlight__impact"><strong>Result:</strong> gains of 13.6 points on SWE-bench Lite and 12.3 points on SWE-bench Verified.</p>
+    <p class="research-highlight__links"><a href="https://arxiv.org/abs/2602.07457">Paper</a></p>
+  </article>
+
+  <article class="research-highlight">
+    <p class="research-highlight__eyebrow">Data Curation · ICLR 2026</p>
+    <h3><a href="https://openreview.net/forum?id=jSs8CDsF0A">TrainRef</a></h3>
+    <p>Curates training data using label distributions and minimal references to improve predictive accuracy and confidence reliability under noisy supervision.</p>
+    <p class="research-highlight__links"><a href="https://openreview.net/forum?id=jSs8CDsF0A">Paper</a><a href="https://sites.google.com/view/train-ref/home">Project</a></p>
+  </article>
+</div>
 
 ## Education
 
@@ -89,17 +116,19 @@ My research centers on **post-training code agents**, with an emphasis on constr
 
 ## Publications
 
+### Recent and Selected
+
 1. [**From Patches to Trajectories: Privileged Process Supervision for Software-Engineering Agents**](https://arxiv.org/abs/2605.21996)<br>
    **Murong Ma**, Tianyu Chen, Yun Lin, Shuai Lu, Qinglin Zhu, Yeyun Gong, Zhiyong Huang, Peng Cheng, Yan Lu, and Jin Song Dong. *arXiv preprint arXiv:2605.21996*, 2026.
 
-2. [**Few-Shot Precise Event Spotting via Unified Multi-Entity Graph and Distillation**](https://doi.org/10.1609/aaai.v40i9.37681)<br>
-   Zhaoyu Liu, Kan Jiang, **Murong Ma**, Zhe Hou, Yun Lin, and Jin Song Dong. *Proceedings of the AAAI Conference on Artificial Intelligence*, 40(9):7422–7430, 2026.
-
-3. [**Pull Requests as a Training Signal for Repo-Level Code Editing**](https://arxiv.org/abs/2602.07457)<br>
+2. [**Pull Requests as a Training Signal for Repo-Level Code Editing**](https://arxiv.org/abs/2602.07457)<br>
    Qinglin Zhu, Tianyu Chen, Shuai Lu, Lei Ji, Runcong Zhao, **Murong Ma**, Xiangxiang Dai, Yulan He, Lin Gui, Peng Cheng, and Yeyun Gong. In *International Conference on Machine Learning (ICML)*, 2026.
 
-4. [**TrainRef: Curating Data with Label Distribution and Minimal Reference for Accurate Prediction and Reliable Confidence**](https://openreview.net/forum?id=jSs8CDsF0A)<br>
+3. [**TrainRef: Curating Data with Label Distribution and Minimal Reference for Accurate Prediction and Reliable Confidence**](https://openreview.net/forum?id=jSs8CDsF0A)<br>
    **Murong Ma**, Ruofan Liu, Yun Lin, Zhiyong Huang, and Jin Song Dong. In *The Fourteenth International Conference on Learning Representations (ICLR)*, 2026.
+
+4. [**Few-Shot Precise Event Spotting via Unified Multi-Entity Graph and Distillation**](https://doi.org/10.1609/aaai.v40i9.37681)<br>
+   Zhaoyu Liu, Kan Jiang, **Murong Ma**, Zhe Hou, Yun Lin, and Jin Song Dong. *Proceedings of the AAAI Conference on Artificial Intelligence*, 40(9):7422–7430, 2026.
 
 5. [**F<sup>3</sup>Set: Towards Analyzing Fast, Frequent, and Fine-grained Events from Videos**](https://proceedings.iclr.cc/paper_files/paper/2025/hash/1c8e2cd11daf2d0a8c68663d504a841d-Abstract-Conference.html)<br>
    Zhaoyu Liu, Kan Jiang, **Murong Ma**, Zhe Hou, Yun Lin, and Jin Song Dong. In *International Conference on Learning Representations (ICLR)*, pp. 10566–10580, 2025.
@@ -107,35 +136,37 @@ My research centers on **post-training code agents**, with an emphasis on constr
 6. [**Revisiting the Conflict-Resolving Problem from a Semantic Perspective**](https://doi.org/10.1145/3691620.3694993)<br>
    Jinhao Dong, Jun Sun, Yun Lin, Yedi Zhang, **Murong Ma**, Jin Song Dong, and Dan Hao. In *Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE)*, pp. 141–152, 2024.
 
-7. [**Novel View Synthesis for High-fidelity Headshot Scenes**](https://arxiv.org/abs/2205.15595)<br>
+### Earlier Work
+
+1. [**Novel View Synthesis for High-fidelity Headshot Scenes**](https://arxiv.org/abs/2205.15595)<br>
    Satoshi Tsutsui, Weijia Mao, Sijing Lin, Yunyi Zhu, **Murong Ma**, and Mike Zheng Shou. *arXiv preprint arXiv:2205.15595*, 2022.
 
-8. [**Acoustic Word Embedding System for Code-Switching Query-by-Example Spoken Term Detection**](https://doi.org/10.1109/ISCSLP49672.2021.9362056)<br>
+2. [**Acoustic Word Embedding System for Code-Switching Query-by-Example Spoken Term Detection**](https://doi.org/10.1109/ISCSLP49672.2021.9362056)<br>
    **Murong Ma**, Haiwei Wu, Xuyang Wang, Lin Yang, Junjie Wang, and Ming Li. In *2021 12th International Symposium on Chinese Spoken Language Processing (ISCSLP)*, pp. 1–5, 2021.
 
-9. [**The DKU System Description for the Interspeech 2021 Auto-KWS Challenge**](https://arxiv.org/abs/2104.04993)<br>
+3. [**The DKU System Description for the Interspeech 2021 Auto-KWS Challenge**](https://arxiv.org/abs/2104.04993)<br>
    Yechen Wang, Yan Jia, **Murong Ma**, Zexin Cai, and Ming Li. *arXiv preprint arXiv:2104.04993*, 2021.
 
-10. [**Training Wake Word Detection with Synthesized Speech Data on Confusion Words**](https://arxiv.org/abs/2011.01460)<br>
+4. [**Training Wake Word Detection with Synthesized Speech Data on Confusion Words**](https://arxiv.org/abs/2011.01460)<br>
    Yan Jia, Zexin Cai, **Murong Ma**, Zeqing Zhao, Xuyang Wang, Junjie Wang, and Ming Li. *arXiv preprint arXiv:2011.01460*, 2020.
 
-## Technical Skills
+## Research & Technical Skills
 
-- **Programming:** Python, C++, C
+- **LLM and Agent Training:** supervised fine-tuning, trajectory construction and curation, reinforcement learning
+- **Evaluation:** repository-level code editing, SWE-bench
 - **Machine Learning:** PyTorch
-- **Systems:** Linux, Windows
+- **Programming and Systems:** Python, C++, C, Linux
 
-## Honors & Awards
+## Selected Honors
 
 - NUS Research Scholarship
 - Excellent Bachelor Thesis, Beijing University of Posts and Telecommunications (top 10 among 630 students)
 - Second-Class Scholarship (top 30 among 320 students)
-- Triple-A Student Award (top 20 among 320 students)
-- Academics Improvement Award
-- Third-Class Scholarship (top 70 among 320 students)
 
-## Contact
+## Open to Opportunities
 
-The best way to reach me is at [murongma@u.nus.edu](mailto:murongma@u.nus.edu).
+<div class="opportunity-note" markdown="1">
+I am interested in **Research Scientist, Applied Scientist, and Research Engineer** opportunities related to code agents, LLM post-training, data curation, and trustworthy AI. For opportunities or research collaborations, please [email me](mailto:murongma@u.nus.edu) or view my [CV](/cv/).
+</div>
 
 </div>
