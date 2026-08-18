@@ -119,15 +119,15 @@ My research centers on **post-training code agents**, with an emphasis on constr
 
 <div class="education-list">
   <div class="education-item">
-    <div><strong>Ph.D. in Computer Science</strong><br>National University of Singapore · GPA: 4.92/5.00</div>
+    <div><strong>Ph.D. in Computer Science</strong><br>National University of Singapore</div>
     <time>Aug 2023 — Present</time>
   </div>
   <div class="education-item">
-    <div><strong>M.S. in Computer Science</strong><br>National University of Singapore · Artificial Intelligence specialization · GPA: 4.70/5.00</div>
+    <div><strong>M.S. in Computer Science</strong><br>National University of Singapore · Artificial Intelligence specialization</div>
     <time>2021 — 2023</time>
   </div>
   <div class="education-item">
-    <div><strong>B.E. in Computer Science and Technology</strong><br>Beijing University of Posts and Telecommunications · GPA: 3.70/4.00</div>
+    <div><strong>B.E. in Computer Science and Technology</strong><br>Beijing University of Posts and Telecommunications</div>
     <time>2016 — 2020</time>
   </div>
 </div>
