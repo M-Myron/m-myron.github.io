@@ -68,18 +68,6 @@ My research centers on **post-training code agents**, with an emphasis on constr
     </ul>
   </article>
 
-  <article class="experience-item">
-    <header>
-      <div>
-        <p class="experience-item__organization">Institute of Acoustics · Chinese Academy of Sciences</p>
-        <h3>Research Intern</h3>
-      </div>
-      <time>Mar 2019 — Apr 2019</time>
-    </header>
-    <ul>
-      <li>Implemented an isolated-word speech-recognition system in C++ using MFCC features and compared DTW- and HMM-based recognition under different model settings.</li>
-    </ul>
-  </article>
 </div>
 
 ## Publications
