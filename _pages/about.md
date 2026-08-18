@@ -51,7 +51,7 @@ My research centers on **post-training code agents**, with an emphasis on constr
    Qinglin Zhu, Tianyu Chen, Shuai Lu, Lei Ji, Runcong Zhao, **Murong Ma**, Xiangxiang Dai, Yulan He, Lin Gui, Peng Cheng, and Yeyun Gong. In *International Conference on Machine Learning (ICML)*, 2026.
 
 4. [**TrainRef: Curating Data with Label Distribution and Minimal Reference for Accurate Prediction and Reliable Confidence**](https://openreview.net/forum?id=jSs8CDsF0A)<br>
-   **Murong Ma**, Rui Liu, Yun Lin, Zhiyong Huang, and Jin Song Dong. In *The Fourteenth International Conference on Learning Representations (ICLR)*, 2026.
+   **Murong Ma**, Ruofan Liu, Yun Lin, Zhiyong Huang, and Jin Song Dong. In *The Fourteenth International Conference on Learning Representations (ICLR)*, 2026.
 
 5. [**F<sup>3</sup>Set: Towards Analyzing Fast, Frequent, and Fine-grained Events from Videos**](https://proceedings.iclr.cc/paper_files/paper/2025/hash/1c8e2cd11daf2d0a8c68663d504a841d-Abstract-Conference.html)<br>
    Zhaoyu Liu, Kan Jiang, **Murong Ma**, Zhe Hou, Yun Lin, and Jin Song Dong. In *International Conference on Learning Representations (ICLR)*, pp. 10566–10580, 2025.
