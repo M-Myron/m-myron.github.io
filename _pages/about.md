@@ -50,12 +50,11 @@ My work spans supervised fine-tuning trajectory construction and curation, reinf
       </div>
       <time datetime="2026-07-26">26 July 2026 — Present</time>
     </header>
-    <p class="experience-item__intro">Working with <a href="https://www.microsoft.com/en-us/research/people/yegong/">Dr. Yeyun Gong</a> on code-agent post-training across four workstreams:</p>
+    <p class="experience-item__intro">Working with <a href="https://www.microsoft.com/en-us/research/people/yegong/">Dr. Yeyun Gong</a> on code-agent post-training across three workstreams:</p>
     <ul>
       <li><strong>Repository-level mid-training — collaborator:</strong> contributed to a pipeline that uses verified pull requests as training signals for repository-level code editing, including the data and evaluation work reported in our <a href="https://arxiv.org/abs/2602.07457">ICML 2026 paper</a>.</li>
       <li><strong>Process-supervised SFT trajectories — lead:</strong> led the trajectory-construction and curation work for <a href="https://arxiv.org/abs/2605.21996">P2T</a>, using golden patches as privileged process supervision to recover effective, efficient agent trajectories; improved Pass@1 on SWE-bench Verified by up to 10.8 points while reducing per-instance inference cost by approximately 15%.</li>
-      <li><strong>Dense rewards for long-horizon agentic RL:</strong> developing an evidence-driven process reward model (PRM) that extracts and verifies task-relevant evidence from intermediate agent trajectories, providing process-level feedback to mitigate sparse terminal rewards.</li>
-      <li><strong>Hard-trajectory bootstrapping for RL:</strong> extending P2T from SFT to reinforcement learning to construct valid training trajectories for difficult instances where successful single-pass rollouts remain rare even under repeated sampling.</li>
+      <li><strong>Long-horizon code-agent RL — lead:</strong> leading an ongoing project that addresses sparse terminal rewards and low rollout success through two complementary techniques: an evidence-driven process reward model (PRM) that extracts and verifies task-relevant evidence from intermediate trajectories to provide process-level rewards, and a P2T-to-RL extension that bootstraps valid training trajectories for difficult instances where successful single-pass rollouts remain rare even under repeated sampling.</li>
     </ul>
     <p class="experience-item__scope"><strong>Evaluation scope:</strong> SWE-bench, NL2Repo, and other benchmarks requiring long-horizon repository reasoning and complex code generation.</p>
   </article>
