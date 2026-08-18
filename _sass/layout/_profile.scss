@@ -262,6 +262,59 @@ body {
   line-height: 1.55;
 }
 
+.experience-list {
+  margin-top: 1rem;
+  border-top: 1px solid var(--academic-line);
+}
+
+.experience-item {
+  padding: 1.15rem 0 0.85rem;
+  border-bottom: 1px solid var(--academic-line);
+}
+
+.experience-item header {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.experience-item .experience-item__organization {
+  margin: 0 0 0.15rem;
+  color: var(--academic-link);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+}
+
+.experience-item h3 {
+  margin: 0;
+  color: var(--academic-ink);
+  font-size: 1rem;
+}
+
+.experience-item time {
+  flex: 0 0 auto;
+  color: var(--academic-muted);
+  font-size: 0.76rem;
+  font-weight: 600;
+  line-height: 1.55;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.simple-academic .experience-item ul {
+  margin: 0.65rem 0 0;
+}
+
+.simple-academic .experience-item li {
+  margin-bottom: 0.35rem;
+  color: var(--academic-muted);
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
 .simple-academic ol li {
   margin-bottom: 1rem;
   line-height: 1.55;
@@ -402,6 +455,16 @@ body {
 
   .education-item {
     display: block;
+  }
+
+  .experience-item header {
+    display: block;
+  }
+
+  .experience-item time {
+    display: block;
+    margin-top: 0.3rem;
+    text-align: left;
   }
 
   .current-role {

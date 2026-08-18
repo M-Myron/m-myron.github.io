@@ -29,8 +29,52 @@ My research centers on **post-training code agents**, with an emphasis on constr
     <p class="current-role__label">Microsoft Research Asia</p>
     <h3>Research Intern</h3>
     <p class="current-role__period"><time datetime="2026-07-26">26 July 2026</time> — Present</p>
-    <p>Working with <a href="https://www.microsoft.com/en-us/research/people/yegong/">Dr. Yeyun Gong</a> on post-training for code agents, including supervised fine-tuning trajectory construction and curation, and reinforcement learning for code agents.</p>
+    <p>Working with <a href="https://www.microsoft.com/en-us/research/people/yegong/">Dr. Yeyun Gong</a> on post-training for code agents, including supervised fine-tuning trajectory construction and curation, and reinforcement learning for code agents. Our <a href="https://arxiv.org/abs/2605.21996">process-supervised trajectory curation</a> improves SWE-bench Verified performance by up to 10.8 points while reducing per-instance inference cost by approximately 15%.</p>
   </div>
+</div>
+
+<div class="experience-list">
+  <article class="experience-item">
+    <header>
+      <div>
+        <p class="experience-item__organization">ShowLab · National University of Singapore</p>
+        <h3>M.S. Thesis Researcher</h3>
+      </div>
+      <time>Aug 2021 — Sep 2022</time>
+    </header>
+    <ul>
+      <li>Completed the M.S. thesis <a href="https://dl.comp.nus.edu.sg/bitstreams/4ccc07df-ed54-4af8-bf40-063694aeda83/download"><em>Subject-Adaptive Speech-Driven 3D Facial Animation</em></a>, focusing on 3D avatar generation and speech-driven animation.</li>
+      <li>Built a high-resolution face video dataset—a 4K variant of VoxCeleb—for face generation, talking-head synthesis, and cross-modal research.</li>
+      <li>Helped organize the <a href="https://ego4d-data.org/docs/challenge/">Ego4D Challenge 2022</a> as a point of contact for the <a href="https://eval.ai/web/challenges/challenge-page/1624/overview">Talking to Me Challenge</a>.</li>
+    </ul>
+  </article>
+
+  <article class="experience-item">
+    <header>
+      <div>
+        <p class="experience-item__organization">SMIIP Lab · Data Science Research Center · Duke Kunshan University</p>
+        <h3>Research Intern</h3>
+      </div>
+      <time>Jun 2020 — Feb 2021<br>Jul 2019 — Sep 2019</time>
+    </header>
+    <ul>
+      <li>Conducted research in speech recognition, bilingual query-by-example spoken-term detection, keyword spotting, and multimodal speech-driven facial animation.</li>
+      <li>Helped organize the <a href="https://github.com/lenovo-voice/THE-2020-PERSONALIZED-VOICE-TRIGGER-CHALLENGE-BASELINE-SYSTEM">2020 Personalized Voice Trigger Challenge</a>; the team placed second in the Interspeech 2021 Auto-KWS Challenge.</li>
+    </ul>
+  </article>
+
+  <article class="experience-item">
+    <header>
+      <div>
+        <p class="experience-item__organization">Institute of Acoustics · Chinese Academy of Sciences</p>
+        <h3>Research Intern</h3>
+      </div>
+      <time>Mar 2019 — Apr 2019</time>
+    </header>
+    <ul>
+      <li>Implemented an isolated-word speech-recognition system in C++ using MFCC features and compared DTW- and HMM-based recognition under different model settings.</li>
+    </ul>
+  </article>
 </div>
 
 ## Research Interests
@@ -75,26 +119,33 @@ My research centers on **post-training code agents**, with an emphasis on constr
 
 <div class="education-list">
   <div class="education-item">
-    <div><strong>Ph.D. in Computer Science</strong><br>National University of Singapore</div>
-    <time>2023 — Present</time>
+    <div><strong>Ph.D. in Computer Science</strong><br>National University of Singapore · GPA: 4.92/5.00</div>
+    <time>Aug 2023 — Present</time>
   </div>
   <div class="education-item">
-    <div><strong>M.S. in Computer Science</strong><br>National University of Singapore · Artificial Intelligence specialization</div>
-    <time>2021 — 2022</time>
+    <div><strong>M.S. in Computer Science</strong><br>National University of Singapore · Artificial Intelligence specialization · GPA: 4.70/5.00</div>
+    <time>2021 — 2023</time>
   </div>
   <div class="education-item">
-    <div><strong>B.E. in Computer Science and Technology</strong><br>Beijing University of Posts and Telecommunications</div>
+    <div><strong>B.E. in Computer Science and Technology</strong><br>Beijing University of Posts and Telecommunications · GPA: 3.70/4.00</div>
     <time>2016 — 2020</time>
   </div>
 </div>
 
+## Technical Skills
+
+- **Programming:** Python, C++, C
+- **Machine Learning:** PyTorch
+- **Systems:** Linux, Windows
+
 ## Honors & Awards
 
-- Excellent Bachelor Thesis, Beijing University of Posts and Telecommunications
-- Second-Class Scholarship
-- Triple-A Student Award
+- NUS Research Scholarship
+- Excellent Bachelor Thesis, Beijing University of Posts and Telecommunications (top 10 among 630 students)
+- Second-Class Scholarship (top 30 among 320 students)
+- Triple-A Student Award (top 20 among 320 students)
 - Academics Improvement Award
-- Third-Class Scholarship
+- Third-Class Scholarship (top 70 among 320 students)
 
 ## Contact
 
