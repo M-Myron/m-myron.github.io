@@ -170,7 +170,7 @@ My research focuses on process supervision, agentic reinforcement learning, full
 ## Open to Opportunities
 
 <div class="opportunity-note" markdown="1">
-I am interested in **Research Scientist, Applied Scientist, and Research Engineer** opportunities related to code agents, LLM post-training, data curation, and trustworthy AI. For opportunities or research collaborations, please [email me](mailto:murongma@u.nus.edu) or view my [CV](/cv/).
+I am interested in **Research Scientist, Applied Scientist, and Research Engineer** opportunities related to code agents, LLM post-training, data curation, and trustworthy AI. For opportunities or research collaborations, please [email me](mailto:murongma@u.nus.edu) or view my [CV](/files/cv_murong_1028.pdf).
 </div>
 
 </div>
