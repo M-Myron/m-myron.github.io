@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Murong Ma | Code Agents, Data Curation, and XAI"
-excerpt: "Computer Science Ph.D. student at NUS developing data and post-training methods for reliable code agents."
+title: "Murong Ma | LLM Post-Training, Agentic RL, and Data Curation"
+excerpt: "Computer Science Ph.D. student at NUS working on LLM post-training, long-horizon agents, repository generation, and verified data curation."
 author_profile: true
 redirect_from:
   - /about/
@@ -12,14 +12,14 @@ redirect_from:
 
 ## About Me
 
-I am a Computer Science Ph.D. student at the [National University of Singapore](https://www.comp.nus.edu.sg/), supervised by [Prof. Jin Song Dong](https://www.comp.nus.edu.sg/~dongjs/) and [Prof. Yun Lin](http://linyun.info/). I develop **data and post-training methods for reliable code agents** and am currently a research intern at Microsoft Research Asia (MSRA).
+I am a Computer Science Ph.D. student at the [National University of Singapore](https://www.comp.nus.edu.sg/), supervised by [Prof. Jin Song Dong](https://www.comp.nus.edu.sg/~dongjs/) and [Prof. Yun Lin](http://linyun.info/). I build **post-training systems for long-horizon agents** and am currently a research intern at Microsoft Research Asia (MSRA).
 
-My work spans supervised fine-tuning trajectory construction and curation, reinforcement learning for software-engineering agents, and data-centric methods for accurate and trustworthy AI. I am currently open to research and industry opportunities.
+My research focuses on process supervision, agentic reinforcement learning, full-repository generation, and verified data curation. I have hands-on experience training 1.5B–32B models and running training and serving experiments on 8 to over 100 GPUs. My broader research spans explainable AI, multimodal learning, video understanding, and speech. I am currently open to research and industry opportunities.
 
 ## Research Interests
 
-- **Code Agent Post-Training:** constructing and curating high-quality supervised fine-tuning trajectories and developing reinforcement-learning methods for code agents.
-- **Data Curation:** selecting, refining, and evaluating training data and agent trajectories to improve model capability and reliability.
+- **LLM Post-Training and Agentic RL:** using privileged process supervision, trajectory synthesis, and verifiable intermediate rewards to make difficult, long-horizon tasks learnable.
+- **Complex Task Construction and Data Curation:** building verified training tasks for issue resolution, full-repository generation, and terminal workflows; curating data to improve capability and reliability.
 - **Explainable AI (XAI):** developing actionable explanations that help people understand model behavior and make informed decisions.
 
 ## Education
@@ -27,7 +27,7 @@ My work spans supervised fine-tuning trajectory construction and curation, reinf
 <div class="education-list">
   <div class="education-item">
     <div><strong>Ph.D. in Computer Science</strong><br>National University of Singapore</div>
-    <time>Aug 2023 — Present</time>
+    <time>Aug 2023 — Expected 2027</time>
   </div>
   <div class="education-item">
     <div><strong>M.S. in Computer Science</strong><br>National University of Singapore · Artificial Intelligence specialization</div>
@@ -48,15 +48,24 @@ My work spans supervised fine-tuning trajectory construction and curation, reinf
         <p class="experience-item__organization"><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a></p>
         <h3>Research Intern</h3>
       </div>
-      <time datetime="2026-07-26">26 July 2026 — Present</time>
+      <time datetime="2025-07">Jul 2025 — Present</time>
     </header>
-    <p class="experience-item__intro">Working with <a href="https://www.microsoft.com/en-us/research/people/yegong/">Dr. Yeyun Gong</a> on code-agent post-training across three workstreams:</p>
+    <p class="experience-item__intro">Working with <a href="https://www.microsoft.com/en-us/research/people/yegong/">Dr. Yeyun Gong</a> on post-training systems for long-horizon agents, from privileged supervision to complex task construction.</p>
     <ul>
-      <li><strong>Repository-level mid-training — collaborator:</strong> a large-scale mid-training pipeline that curates verified pull requests as training signals for repository-level code editing, detailed in our <a href="https://arxiv.org/abs/2602.07457">ICML 2026 paper</a>.</li>
-      <li><strong>Process-supervised SFT trajectories — lead:</strong> led the trajectory-construction and curation work for <a href="https://arxiv.org/abs/2605.21996">P2T</a>, using golden patches as privileged process supervision to recover effective, efficient agent trajectories; improved Pass@1 on SWE-bench Verified by up to 10.8 points while reducing per-instance inference cost by approximately 15%.</li>
-      <li><strong>Long-horizon code-agent RL — lead:</strong> leading an ongoing project that addresses sparse terminal rewards and low rollout success through two complementary techniques: an evidence-driven process reward model (PRM) that extracts and verifies task-relevant evidence from intermediate trajectories to provide process-level rewards, and a P2T-to-RL extension that bootstraps valid training trajectories for difficult instances where successful single-pass rollouts remain rare even under repeated sampling.</li>
+      <li><strong>Privileged supervision for agent post-training — project lead.</strong> Using reference artifacts to make hard tasks learnable through guided trajectory construction and verifiable intermediate rewards.
+        <ul>
+          <li><strong>P2T: process-supervised trajectory generation for SFT.</strong> Developed a multi-agent framework that uses reference patches to recover successful issue-resolution trajectories where unguided teacher rollouts fail. Fact-DAG distillation turns privileged information into actionable guidance, while a neural-symbolic critic preserves trajectory realism without exposing reference solutions to the agent. Served Qwen3-Coder-480B and GLM-5.1 teachers on 32 H200 GPUs and trained Qwen2.5-Coder 7B/14B/32B students on approximately 2,000 tasks with SWIFT-Megatron. Achieved up to <strong>10.8 percentage points higher Pass@1</strong> across SWE-bench Verified/Lite and DeepSWE, with approximately <strong>15% lower inference cost</strong> per instance. Accepted at <a href="https://arxiv.org/abs/2605.21996">NeurIPS 2026</a>.</li>
+          <li><strong>Milestone-based RL for long-horizon tasks.</strong> Extending privileged supervision to GRPO by decomposing reference solutions and terminal goals into intermediate, verifiable milestones, so partially successful rollouts provide learning signals. Training Qwen3.5-30B with slime on 64 MI300X GPUs over 4,000 SWE tasks, with 16 rollouts per task. Increased the fraction of rollouts receiving a learning signal from <strong>18% to 82%</strong>.</li>
+        </ul>
+      </li>
+      <li><strong>Complex task construction and teacher distillation — collaborator.</strong> Expanding agent training beyond issue fixing to full-repository generation and multi-step terminal workflows.
+        <ul>
+          <li><strong>Full-repository generation.</strong> Co-collected 22,000 repositories from PyPI and GitHub and constructed tasks through feature-to-test mapping and feature recombination, tying functional requirements to executable checks while increasing task diversity and difficulty. SFT on Qwen3.8-Next-Flash teacher trajectories improved Qwen3.5-27B from <strong>27.3% to 38.0% on NL2Repo</strong>.</li>
+          <li><strong>Terminal-agent task synthesis and evolution.</strong> Co-developed a pipeline that grounds StackExchange Q&amp;A pairs in real GitHub issues and repositories, constructs executable environments, and evolves tasks through algorithmic upgrades, fault diagnosis and repair, and toolchain integration. Each round introduces new capability requirements and broadens reasoning and tool use. SFT on GLM-5.2 teacher trajectories improved Qwen3.5-27B from <strong>36.15% to 49.44% Pass@1 on Terminal-Bench 2.1</strong>.</li>
+        </ul>
+      </li>
+      <li><strong>Repository-level mid-training — collaborator.</strong> Co-developed a large-scale pipeline to curate and verify pull requests as training signals for repository-level code editing. <a href="https://arxiv.org/abs/2602.07457">ICML 2026</a>.</li>
     </ul>
-    <p class="experience-item__scope"><strong>Evaluation scope:</strong> SWE-bench, NL2Repo, and other benchmarks requiring long-horizon repository reasoning and complex code generation.</p>
   </article>
 
   <article class="experience-item">
@@ -95,7 +104,7 @@ My work spans supervised fine-tuning trajectory construction and curation, reinf
 ### Recent and Selected
 
 1. [**From Patches to Trajectories: Privileged Process Supervision for Software-Engineering Agents**](https://arxiv.org/abs/2605.21996)<br>
-   **Murong Ma**, Tianyu Chen, Yun Lin, Shuai Lu, Qinglin Zhu, Yeyun Gong, Zhiyong Huang, Peng Cheng, Yan Lu, and Jin Song Dong. *arXiv preprint arXiv:2605.21996*, 2026.
+   **Murong Ma**, Tianyu Chen, Yun Lin, Shuai Lu, Qinglin Zhu, Yeyun Gong, Zhiyong Huang, Peng Cheng, Yan Lu, and Jin Song Dong. In *Neural Information Processing Systems (NeurIPS)*, 2026.
 
 2. [**Pull Requests as a Training Signal for Repo-Level Code Editing**](https://arxiv.org/abs/2602.07457)<br>
    Qinglin Zhu, Tianyu Chen, Shuai Lu, Lei Ji, Runcong Zhao, **Murong Ma**, Xiangxiang Dai, Yulan He, Lin Gui, Peng Cheng, and Yeyun Gong. In *International Conference on Machine Learning (ICML)*, 2026.
@@ -111,6 +120,11 @@ My work spans supervised fine-tuning trajectory construction and curation, reinf
 
 6. [**Revisiting the Conflict-Resolving Problem from a Semantic Perspective**](https://doi.org/10.1145/3691620.3694993)<br>
    Jinhao Dong, Jun Sun, Yun Lin, Yedi Zhang, **Murong Ma**, Jin Song Dong, and Dan Hao. In *Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE)*, pp. 141–152, 2024.
+
+### Manuscripts under Review
+
+- **CausalCoder: Causality-Guided Data Curation for Robust Code Generation**<br>
+  **Murong Ma**, Yilu Cao, Ruofan Liu, Wenhao Zhang, Jin Song Dong, and Yun Lin. Submitted to *FSE 2027*; under review.
 
 ### Earlier Work
 
@@ -131,15 +145,15 @@ My work spans supervised fine-tuning trajectory construction and curation, reinf
 <div class="technical-stack">
   <div class="technical-stack__row">
     <h3>Code-Agent Post-Training</h3>
-    <p>Supervised fine-tuning (SFT), trajectory generation and filtering, process-supervised data curation, and agentic reinforcement learning</p>
+    <p>Supervised fine-tuning (SFT), agentic RL (GRPO), privileged process supervision, milestone-based rewards, and trajectory synthesis and curation</p>
   </div>
   <div class="technical-stack__row">
     <h3>Training & Inference Infrastructure</h3>
-    <p>PyTorch, slime, Megatron-LM, vLLM, SGLang</p>
+    <p>slime, SWIFT-Megatron, Megatron-LM, SGLang, vLLM, and distributed GPU training and serving</p>
   </div>
   <div class="technical-stack__row">
     <h3>Evaluation & Verification</h3>
-    <p>SWE-bench Verified and Lite, NL2Repo, repository-level code editing, test-based verification, Pass@1, and inference-cost analysis</p>
+    <p>SWE-bench Verified/Lite, DeepSWE, NL2Repo, Terminal-Bench 2.1, repository-level task construction, feature-to-test mapping, and sandboxed verification</p>
   </div>
   <div class="technical-stack__row">
     <h3>Programming & Systems</h3>

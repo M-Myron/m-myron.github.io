@@ -7,12 +7,17 @@ redirect_from:
   - /resume
 ---
 
-<div class="cv-placeholder" markdown="1">
+<div class="cv-summary" markdown="1">
 
-## Updated CV in progress
+## Current CV
 
-I am currently revising my CV to reflect my latest work on code-agent post-training, data curation, and reinforcement learning. The updated PDF will be available here soon.
+Updated **28 October 2026** · PDF · 2 pages
 
-In the meantime, please see my [publications](/#publications), review my [experience](/#experience), or [email me](mailto:murongma@u.nus.edu) for a current copy.
+[Download CV (PDF)]({{ '/files/cv_murong_1028.pdf' | relative_url }}){: .btn .btn--primary download="cv_murong_1028.pdf"}
+[Open PDF]({{ '/files/cv_murong_1028.pdf' | relative_url }})
+
+My CV covers LLM post-training, privileged process supervision, milestone-based agentic RL, full-repository generation, and verified task construction at Microsoft Research Asia, alongside my education and publications, including **P2T (NeurIPS 2026)**.
+
+For a web overview, see my [research and experience](/#experience) and [publications](/#publications). For opportunities or research collaborations, please [email me](mailto:murongma@u.nus.edu).
 
 </div>
